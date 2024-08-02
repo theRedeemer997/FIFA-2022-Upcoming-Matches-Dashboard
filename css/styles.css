@@ -1,0 +1,89 @@
+main {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerContent {
+    text-align: center;
+    color: #2f6e10;
+    background-color: black;
+    color: white;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.worldcup {
+    width: 600px;
+}
+
+.title {
+    color: #fff;
+    position: absolute;
+    top: 280px;
+    margin-left: 21px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+    width: 60%;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 60px;
+}
+
+.versus {
+    font-weight: 900;
+}
+
+td {
+    padding: 10px;
+}
+
+td:nth-child(1) {
+    text-align: left;
+}
+
+td:nth-child(3) {
+    text-align: right;
+}
+
+@media screen and (min-width: 768px) {
+    .worldcup {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .worldcup {
+        width: 300px;
+    }
+
+    .title {
+        color: #000;
+        position: static;
+    }
+}
